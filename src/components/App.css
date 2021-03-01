@@ -1,0 +1,19 @@
+/* .club-for-mobile.active {
+  position: fixed;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #ddd;
+  width: 94%;
+}
+
+.club-for-mobile.active:before {
+  position: absolute;
+  content: "";
+  width: 100vw;
+  height: 100vh;
+  left: -15px;
+  top: -147%;
+  z-index: -1;
+  background-color: #ddd;
+} */

@@ -1,0 +1,39 @@
+.player {
+  border: 1px solid #28a745;
+  padding: 8px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  transition: .2s;
+}
+
+.player.invited{
+  border: 1px solid #dc3545;
+}
+
+.player.invited button.btn-success{
+  background-color:  #dc3545;
+}
+
+.player figure {
+  text-align: center;
+  width: 176px;
+  height: 200px;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  border-radius: 50%;
+}
+
+
+.player button {
+  width: 100%;
+}
+
+.player.invited,
+.player:hover {
+  box-shadow: 0px 3px 5px rgba(0,0,0,0.3);
+}
+
+.player__name {
+  font-size: 20px;
+}
